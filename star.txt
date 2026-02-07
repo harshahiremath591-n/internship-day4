@@ -1,0 +1,12 @@
+#Right star
+rows=5
+for i in range(1,rows+1):
+    print("*"*i)
+    #square star
+rows=5
+for i in range(rows):
+    print("*"*rows)
+    #Left star
+rows=5
+for i in range(rows,0,-1):
+    print("*"*i)
